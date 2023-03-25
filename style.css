@@ -79,3 +79,13 @@ body {
     bottom: -4px;
     left: 20px;
 }
+
+/* Home Page */
+
+#hero{
+    background-image: url("img/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg");
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0;
+
+}
