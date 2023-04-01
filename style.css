@@ -172,8 +172,36 @@ body {
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+#New-Arrival .new:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 #New-Arrival .new img{
     width: 100%;
     border-radius: 20px;
+}
+#New-Arrival .new .arrival{
+    text-align: start;
+    padding: 10px 0;
+}
+#New-Arrival .new .arrival span{
+    color: #F6056f;
+    font-size: 12px;
+}
+#New-Arrival .new .arrival h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+#New-Arrival .new .arrival i{
+    font-size: 12px;
+    color: rgba(240, 117, 18);
+}
+#New-Arrival .new .arrival h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
 }
