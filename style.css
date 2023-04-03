@@ -163,6 +163,12 @@ body {
 #New-Arrival{
     text-align: center;
 }
+#New-Arrival .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
 #New-Arrival .new{
     width: 23%;
     min-height: 250px;
